@@ -1,6 +1,6 @@
 Name:           gmtk
 Version:        1.0.9
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Library of common functions and widgets for gnome-mplayer and gecko-mediaplayer 
 
 License:        GPLv2+
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT%{_docdir}/%{name}
 
 
 %changelog
+* Fri Nov 18 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.0.9-2
+- Rebuilt for DeskOS
+
 * Thu Apr 24 2014 Julian Sikorski <belegdol@fedoraproject.org> - 1.0.9-1
 - Updated to 1.0.9
 
